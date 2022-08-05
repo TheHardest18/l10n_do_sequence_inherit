@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_multiply_sale_order_multiply,sale_order_multiply.sale_order_multiply,model_sale_order_multiply_sale_order_multiply,base.group_user,1,1,1,1
+access_sale_order_multiply_line,sale.order.multiply.line,model_sale_order_multiply_line,base.group_user,1,1,1,1
+access_sale_reason,sale.reason,model_sale_reason,base.group_user,1,1,1,1
