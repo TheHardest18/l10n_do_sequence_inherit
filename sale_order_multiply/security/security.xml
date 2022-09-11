@@ -1,7 +1,0 @@
-<odoo>
-  <data>
-    <record  id="group_test_model" model="res.groups">
-      <field name="name">TestM</field>
-    </record>
-  </data>
-</odoo>
