@@ -1,0 +1,24 @@
+<odoo>
+    <data>
+        <template inherit_id="invoice_format.inherit_laminados" id="final_customer_invoice">
+            <xpath expr="//div[@id='informations']/div[2]" position="after">
+                <div class="col-auto mw-100 mb-2">
+                    <t t-if="o.final_customer">
+                        <strong>Cliente Final:</strong>
+                        <p class="m-0" t-field="o.final_customer"/>
+                    </t>
+                </div>
+            </xpath>
+        </template>
+        <template id="final_customer_sale_order" inherit_id="sale.report_saleorder_document">
+            <xpath expr="//div[@id='informations']/div[2]" position="before">
+                <div class="col-auto mw-100 mb-2">
+                    <t t-if="doc.final_customer">
+                        <strong>Cliente Final:</strong>
+                        <p class="m-0" t-field="doc.final_customer"/>
+                    </t>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
