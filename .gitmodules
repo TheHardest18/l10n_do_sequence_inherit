@@ -1,0 +1,3 @@
+[submodule "notes_odoo"]
+	path = notes_odoo
+	url = git@github.com:TheHardest18/notes_odoo.git
